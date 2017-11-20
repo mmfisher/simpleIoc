@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans>
+    <bean name="a" class="cn.yu.model.A">
+        <property name="name" value="jerry"></property>
+    </bean>
+    <bean name="b" class="cn.yu.model.B">
+        <property name="a" ref="a"></property>
+    </bean>
+</beans>
